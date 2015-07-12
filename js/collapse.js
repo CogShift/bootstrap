@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery", "./transition"], function ($) {
   'use strict';
 
   // COLLAPSE PUBLIC CLASS DEFINITION
@@ -208,4 +208,4 @@
     Plugin.call($target, option)
   })
 
-}(jQuery);
+});

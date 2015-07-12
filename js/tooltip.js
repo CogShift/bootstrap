@@ -8,7 +8,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery"], function ($) {
   'use strict';
 
   // TOOLTIP PUBLIC CLASS DEFINITION
@@ -511,4 +511,4 @@
     return this
   }
 
-}(jQuery);
+});

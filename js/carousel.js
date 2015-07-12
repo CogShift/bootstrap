@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery"], function ($) {
   'use strict';
 
   // CAROUSEL CLASS DEFINITION
@@ -234,4 +234,4 @@
     })
   })
 
-}(jQuery);
+});

@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery"], function ($) {
   'use strict';
 
   // MODAL CLASS DEFINITION
@@ -334,4 +334,4 @@
     Plugin.call($target, option, this)
   })
 
-}(jQuery);
+});

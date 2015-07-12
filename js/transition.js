@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery"], function ($) {
   'use strict';
 
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
@@ -56,4 +56,4 @@
     }
   })
 
-}(jQuery);
+});

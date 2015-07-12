@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(["jquery", "./tooltip"], function ($) {
   'use strict';
 
   // POPOVER PUBLIC CLASS DEFINITION
@@ -105,4 +105,4 @@
     return this
   }
 
-}(jQuery);
+});
